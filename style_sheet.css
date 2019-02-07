@@ -1,0 +1,149 @@
+body{
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+div.nav{
+	color: black;
+	text-decoration: none;
+	padding-bottom: 60px;
+}
+ul.navibar {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 2100px;
+	overflow: hidden;
+	background-color: #555555
+}
+
+li.navibar_item a{
+	display: block;
+	padding: 8px;
+	background-color: #555555;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 24px;
+}
+
+li.navibar_item {
+	float: left;
+}
+
+li.navibar_item a:hover {
+	background-color: red
+}
+
+#name {
+	font-size: 40px;
+	padding-right: 1000px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+div.resume{
+	color: #555555;
+	padding-bottom: 60px;
+}
+
+ul.resume_menu {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	overflow: hidden;
+	background-color: #555555
+}
+
+li.resume_section a{
+	display: block;
+	padding:8px;
+	padding-right: 50px;
+	background-color: #555555;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 24px;
+}
+
+li.resume_section {
+	float: left;
+}
+
+li.resume_section a:hover {
+	background-color: red
+}
+
+hr.bottom{
+	border-bottom: 2pt solid black
+}
+
+div.resume_style{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black
+}
+
+h1.resume_title{
+	font-size: 36px;
+	font-weight: bold;
+	text-align:center;
+}
+
+h1.resume_info{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 50px;
+}
+h1.resume_section_heading{
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 200px;
+}
+
+h2.resume_section_subheading{
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 230px;
+}
+
+p.resume_content{
+	font-size: 16px;
+	padding-left: 230px;
+}
+
+span.italic{
+	font-weight: normal;
+	font-style: italic;
+	padding-right: 5px;
+}
+
+span.newline{
+	display: block;
+}
+
+span.alignright{
+	position: absolute;
+	right: 100px;
+}
+
+span.bold{
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+div.bio{
+	font-size: 30px;
+	padding: 10px;
+}
+
+#pic_size{
+	height: 30%;
+	width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

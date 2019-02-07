@@ -1,36 +1,89 @@
-<!DOCTYPE html> <!--HTML document-->
-
 <!DOCTYPE html>
-<html> <!--beginning-->
-<head> <!--Information about the page here
-			** very important cuz all the search engines actually look for stuff based on the tags
-		-->
-	<title></title>
+<html lang="en"> 
+	<link rel="stylesheet" href="style_sheet.css" />
+	<title>Zimo's Resume</title>
+	<meta charset="utf-8">
 </head>
+
 <body>
-	<!--Actual stuff here-->
-	<p author="Napoleon"> Able was I ere I saw Elba </p>
-	<!--Terminology: 
-		* p => element, in this case, paragraph element (check cheatsheet)
-		* <p> => start tag
-		* </p> => end tag
-		* author="Napoleon" => attribute-value pair, must be inside a star tag. Warining: some tags have attributes requirment
-			* author => attribute
-			* Napoleon => value (inside double quotes)
-	-->
-	<p><img src="https://us.v-cdn.net/5021879/uploads/editor/od/586oxue2utvl.jpg" /></p>
-	<p><img src="pikachu.png">></p>>
-	<a href="https://www.youtube.com/watch?v=6Qrlc7NDqK8" >Try this</a>
+	<div class="nav"> 
+		<a id=name href="index.html"> Zimo Lin</a>
+		<ul class="navibar">
+			<li class="navibar_item"> <a href="resume.html"> Resume</a> </li>
+			<li class="navibar_item"> <a href="bio.html"> Biography</a> </li>
+		</ul>
+	</div>
+
+	<div class="resume">
+		<ul class="resume_menu"> 
+			<li class="resume_section"> <a href="#skills"> Skills </a> </li>
+			<li class="resume_section"> <a href="#exp"> Experience </a> </li>
+			<li class="resume_section"> <a href="#edu"> Education </a> </li>
+			<li class="resume_section"> <a href="#research"> Research </a> </li>
+		</ul>
+
+	</div>
+
+	<div class="resume_style">
+		<h1 class="resume_title"> Zimo Lin</h1>
+		<h1 class="resume_info"> <span class="newline">156 Imaginary Blvd Apt2, Somerville, MA, 02144</span> 
+			<span class="newline">123-456-7890 • zimo.lin@tufts.edu</span></h1>
+		<h1 id = skills class="resume_section_heading">Skills</h1>
+		<h2 class="resume_section_subheading"> Programming Languages and Software:</h2>
+		<p class="resume_content"> C, C++, Java, Python, JavaScript, HTML, CSS, SQL, QBE,
+		Arduino IDE, Logger Pro, MATLAB</p>
+		<h2 class="resume_section_subheading"> Languages:</h2>
+		<p class="resume_content"> Chinese(native), English(fluent), Japanese(basic)</p>
+		<hr class="bottom">
+
+		<h1 id = exp class="resume_section_heading"> Experience</h1>
+		<h2 class="resume_section_subheading"> Meitu, Inc.<span class="alignright"> Xiamen, Fujian, China </span></h2>
+		<h2 class="resume_section_subheading"> <span class="italic"> Software Engineer Intern,</span> Algorithm Optimization Department 
+		<span class="alignright">July - Aug 2018</span></h2>
+		<p class="resume_content"> • Designed and implemented an iOS app to convert colored images to grayscale and to alpha
+		blend two images. </p>
+		<p class="resume_content"> • Researched on and optimized the algorithms used for the transformation using different data
+		structures, ARM NEON intrinsics and inline assembly.</p>
+		<p class="resume_content"> • Increased the performance by 47% (ARM NEON intrinsics version) and by 680% (inline
+		assembly version) in comparison to the original C version</p>
+		<br><br>
+
+		<h2 class="resume_section_subheading"> Tufts Global China Connection<span class="alignright"> Medford, MA </span></h2>
+		<h2 class="resume_section_subheading"> <span class="italic"> Associate Social Chair,</span> Tufts University
+		<span class="alignright">Sept 2017 - May 2018</span></h2>
+		<p class="resume_content"> • Organized internal and external social events</p>
+		<p class="resume_content"> • Searched for and contacted sponsors for TGCC</p>
+		<p class="resume_content"> • Participated in the organization of the GCC Boston Reginal Conference</p>
+		<br><br>
+
+		<h2 class="resume_section_subheading"> Tencent<span class="alignright"> Shanghai, China </span></h2>
+		<h2 class="resume_section_subheading"> <span class="italic"> Summer Assistant,</span> Press Department
+		<span class="alignright">July - Aug 2017</span></h2>
+		<p class="resume_content"> • Investigated and wrote detailed report on Convolutional Neural Network and properties of
+		esophageal cancer at different stages. Reported directly to the project director</p>
+		<p class="resume_content"> • Assisted the shooting of a short documentary about the creation of Tencent’s new AI medical
+		imaging product for the early screening of esophageal cancer</p>
+		<hr class="bottom">
+
+		<h1 id = edu class="resume_section_heading"> Education</h1>
+		<h2 class="resume_section_subheading"> Tufts University School of Engineering<span class="alignright"> Medford, MA </span></h2>
+		<h2 class="resume_section_subheading"> Computer Science, B.S. <span class="alignright">May 2020</span></h2>
+		<span class="alignright">Sept 2017 - May 2018</span></h2>
+		<p class="resume_content"> <span class="bold">Honor:</span>  Dean’s List (2017 Fall, 2018 Spring/Fall term)</p>
+		<p class="resume_content"> <span class="bold">Courses: </span>Data Structure, Algorithms, Machine Structure and Assembly Language, Web Programming,Database Systems.</p>
+		<hr class="bottom">
+
+		<h1 id = research class="resume_section_heading"> Research</h1>
+		<h2 class="resume_section_subheading"> Tufts University, Biomedical Engineering Department<span class="alignright"> Medford, MA </span></h2>
+		<h2 class="resume_section_subheading"> <span class="italic"> Undergraduate Research Assistant,</span> Jiang Lab
+		<span class="alignright">Sept 2017 – Dec 2017</span></h2>
+		<p class="resume_content"> • Investigated the effects of exposure time, polymer to cell ratio and cell concentration on
+		photopolymerization</p>
+
+	</div>
+
+</body>
 
 
 	
-</html> <!--end-->
-
-
-<!--starts with <sth> and ends with </sth>, like \section in Latex-->
-
-<!--This is how you comment-->
-
-<!--right click page source-->
-
-<!--Notice that HTML won't have errors for missing end for a section, it will just randers on...-->
+</html> 
