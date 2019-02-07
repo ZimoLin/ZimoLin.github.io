@@ -10,9 +10,9 @@ div.nav{
 	padding-bottom: 60px;
 }
 ul.navibar {
+	position: static;
 	list-style-type: none;
 	margin: 0;
-	padding-left: 2100px;
 	overflow: hidden;
 	background-color: #555555
 }
@@ -28,7 +28,9 @@ li.navibar_item a{
 }
 
 li.navibar_item {
-	float: left;
+	float: right;
+	position: relative;
+	right: 10%;
 }
 
 li.navibar_item a:hover {
